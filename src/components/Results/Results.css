@@ -1,0 +1,33 @@
+.score_board {
+  width: 50%;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #272b38;
+  text-align: center;
+  margin: 2rem 1rem;
+}
+.score_board.win {
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 1);
+}
+.score_board > div {
+  margin-top: 2rem;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.tie {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .score_board {
+    padding: 0.5rem;
+    margin: 2rem 0.5rem;
+  }
+}

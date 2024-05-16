@@ -15,4 +15,3 @@ react를 이용한 간단한 주사위게임을 만들어봤습니다.
 ## 프로젝트 실행
 
 - sass를 설치합니다. `npm install sass`
-# dice-game
